@@ -84,3 +84,49 @@ header .button2{
     margin-top: 200px;
 }
 /*hero closed*/
+
+
+/*main sec-start*/
+.main-sec{
+    max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+   
+}
+.main-parent{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 30px;
+}
+.main-sec h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box img{
+    width: 100%;
+    border-radius: 5px;
+}
+.box p{
+    text-align: left;
+}
+.box h4{
+    margin-left: 8px;
+}
+
+.p1{
+    color: #2563EB;
+    font-size: 10px;
+   
+}
+.p2{
+    color: #575757;
+}
+.main-parent h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+/*main sec closed*/
