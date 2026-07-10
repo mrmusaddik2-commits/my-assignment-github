@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*nav start*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background-color: #FFFFFF;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #575757;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav .left-nav .logo p{
+    color: #3B82F6;
+    font-size: 30px;
+}
+nav .right-nav button{
+    width: 150px;
+    height: 40px;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+}
+/*nav closed*/
