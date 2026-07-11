@@ -17,6 +17,9 @@ nav ul{
     display: flex;
     gap: 20px;
 }
+nav ul li:hover{
+    font-weight: bold;
+}
 nav ul a{
     text-decoration: none;
     color: #575757;
@@ -39,6 +42,11 @@ nav .right-nav button{
     border: none;
     border-radius: 12px;
     font-weight: bold;
+}
+nav .right-nav button:hover{
+    background-color: #3d5492;
+    box-shadow: 0.5px 0.5px 30px grey;
+    color: white;
 }
 /*nav closed*/
 
@@ -83,6 +91,9 @@ header .button2{
     font-weight: bold;
     margin-top: 200px;
 }
+header .button2:hover{
+    box-shadow: 1px 1px 30px rgb(141, 133, 133);
+}
 /*hero closed*/
 
 
@@ -97,6 +108,9 @@ header .button2{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    gap: 30px;
+}
+.main-parent .box:hover{
+    box-shadow: 1px 1px 30px grey;
 }
 .main-sec h1{
     text-align: center;
@@ -168,7 +182,6 @@ header .button2{
     border: 1px solid #dcdcdc;
     border-radius: 12px;
 }
-
 .cardbox .card1 .pera1{
     text-align: left;
     padding-left: 10px;
@@ -419,12 +432,20 @@ header .button2{
 footer{
     background-color: #0D1B2A;
 }
-
-footer .footer-sec-parent{
+footer .footer-icon{
      max-width: 1200px;
+   margin: 10px auto;
+   padding: 15px 0px 0px 30px;
+}
+footer .footer-icon i{
+    color: rgb(163, 163, 163);
+    font-size: 1rem;
+}
+footer .footer-sec-parent{
+    max-width: 1200px;
    margin: 0 auto;
    padding: 0 20px;
-   height: 100px;
+   height: 80px;
 }
 .footer-sec-parent{
     display: flex;
